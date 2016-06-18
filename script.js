@@ -66,7 +66,7 @@ function callMe(x,y,z) {
         if ((typeof f) == "number") {alert(f)}
         else {console.error("Тут текст ошибки")};
 }
-callMe()
+callMe(x,y,z)
 //7
     var g = ["sdf", "dsf", "fds"];
     function callMeAgain (g) {
@@ -74,4 +74,4 @@ callMe()
         var h = g.join(",");
         console.log(h);
     }
-    callMeAgain ();
+    callMeAgain (g);
